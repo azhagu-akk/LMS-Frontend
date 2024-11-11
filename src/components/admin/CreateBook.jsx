@@ -3,7 +3,7 @@ import createImg from "../../assets/Create-amico.svg";
 import axios from "axios";
 
 const className =
-  "bg-slate-500 px-4 py-3 w-[400px] sm:w-[90%] mb-5 text-white rounded-2xl outline-none";
+  "bg-blue-600 px-4 py-3 w-[400px] sm:w-[90%] mb-5 text-white rounded-2xl outline-none";
 
 const CreateBook = () => {
   const [message, setMessage] = useState("");

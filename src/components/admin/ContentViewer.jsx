@@ -10,6 +10,8 @@ const ContentViewer = () => {
       {AdminComps?.map((comp) => {
         if (currContent?.content === comp?.name) {
           return comp?.comp;
+        } else {
+          return null; // or some default value like `null`
         }
       })}
     </div>

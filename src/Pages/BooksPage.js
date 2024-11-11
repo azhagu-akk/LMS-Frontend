@@ -28,7 +28,7 @@ const BooksPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     users?.user && getFavsFromAPI();
-  }, []);
+  });
 
   return (
     <>

@@ -30,7 +30,7 @@ const App = () => {
     }
     getBooks();
     document.title = "Library Management System";
-  }, []);
+  });
 
   return (
     <div className="App">

@@ -50,7 +50,7 @@ const FavouritePage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     users?.user && getFavsFromAPI();
-  }, []);
+  });
   return (
     <>
       <Header />
@@ -81,7 +81,7 @@ const FavouritePage = () => {
               })
             ) : (
               <div className="w-[500px] sm:w-[100%] h-[400px] mx-auto mt-20 sm:mt-0">
-                <img className="w-[100%] h-[100%]" src={emptyStore}></img>
+                <img className="w-[100%] h-[100%]" src={emptyStore} alt="Image2"></img>
                 <p className="text-center text-2xl sm:text-xl sm:-mt-24 text-white font-bold -mt-14">
                   Favourite list is Empty!
                 </p>

@@ -110,7 +110,7 @@ const CreateBook = () => {
         </button>
       </form>
       <div className="sm:hidden w-[500px] sm:w-[100%] sm:h-[300px] h-[500px]">
-        <img className="w-[100%] h-[100%]" src={createImg}></img>
+        <img className="w-[100%] h-[100%]" src={createImg} alt="Image1"></img>
       </div>
     </div>
   );

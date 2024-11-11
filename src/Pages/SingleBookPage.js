@@ -32,7 +32,7 @@ const SingleBookPage = () => {
       }
     };
     getBook();
-  }, [location]);
+  }, [location,bookId]);
 
   useEffect(() => {
     const getSameCategoryBooks = async () => {
@@ -116,7 +116,7 @@ const SingleBookPage = () => {
                     <div className="w-[200px] sm:w-[150px] h-[300px] sm:h-[200px]">
                       <img
                         className="w-[100%] h-[100%] object-cover rounded-sm"
-                        src={data?.bookImage}
+                        src={data?.bookImage} alt="Image3"
                       ></img>
                     </div>
                     <div className="flex justify-between items-center pr-2">

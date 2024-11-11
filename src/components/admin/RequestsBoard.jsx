@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { acceptReq, declineReq } from "../../action";
+import { acceptReq } from "../../action";
 import { useDispatch, useSelector } from "react-redux";
 
 const data = [

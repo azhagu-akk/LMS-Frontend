@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import axios from "axios";
 import { BsStarFill } from "react-icons/bs";
 import { useSelector, useDispatch } from "react-redux";
@@ -10,7 +10,7 @@ import { addProgFavBooka, open } from "../action";
 const BookSlider = ({ data, title, setFavMsg, setErrMsg }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const toggler = useSelector((state) => state.toggler);
+  // const toggler = useSelector((state) => state.toggler);
   const userInfo = useSelector((state) => state.user);
   const books = useSelector((state) => state.books);
   const handleBook = (value) => {

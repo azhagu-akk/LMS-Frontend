@@ -22,7 +22,7 @@ const RequestForm = () => {
       }
     };
     getBookDetail();
-  }, []);
+  });
   return (
     <>
       <Header />

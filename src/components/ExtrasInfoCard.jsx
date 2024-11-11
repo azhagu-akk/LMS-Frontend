@@ -27,7 +27,7 @@ const ExtrasInfoCard = ({ card, book, handle, visible }) => {
 
   useEffect(() => {
     getExtraInfos();
-  }, []);
+  });
 
   return (
     <>
